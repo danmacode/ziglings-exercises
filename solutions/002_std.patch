@@ -1,0 +1,13 @@
+diff --git a/exercises/002_std.zig b/exercises/002_std.zig
+index 8cc3792..5916c7c 100644
+--- a/exercises/002_std.zig
++++ b/exercises/002_std.zig
+@@ -11,7 +11,7 @@
+ // Please complete the import below:
+ //
+ 
+-??? = @import("std");
++const std = @import("std");
+ 
+ pub fn main() void {
+     std.debug.print("Standard Library.\n", .{});

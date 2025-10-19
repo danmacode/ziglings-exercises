@@ -1,0 +1,12 @@
+diff --git a/exercises/001_hello.zig b/exercises/001_hello.zig
+index 2d95a10..eab663a 100644
+--- a/exercises/001_hello.zig
++++ b/exercises/001_hello.zig
+@@ -16,6 +16,6 @@
+ //
+ const std = @import("std");
+ 
+-fn main() void {
++pub fn main() void {
+     std.debug.print("Hello world!\n", .{});
+ }
