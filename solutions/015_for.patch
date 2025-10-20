@@ -1,0 +1,13 @@
+diff --git a/exercises/015_for.zig b/exercises/015_for.zig
+index 0ee8e7d..e6b9729 100644
+--- a/exercises/015_for.zig
++++ b/exercises/015_for.zig
+@@ -15,7 +15,7 @@ pub fn main() void {
+ 
+     std.debug.print("A Dramatic Story: ", .{});
+ 
+-    for (???) |???| {
++    for (story) |scene| {
+         if (scene == 'h') std.debug.print(":-)  ", .{});
+         if (scene == 's') std.debug.print(":-(  ", .{});
+         if (scene == 'n') std.debug.print(":-|  ", .{});

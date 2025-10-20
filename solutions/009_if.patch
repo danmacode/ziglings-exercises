@@ -1,0 +1,13 @@
+diff --git a/exercises/009_if.zig b/exercises/009_if.zig
+index 4536fc3..a053fa2 100644
+--- a/exercises/009_if.zig
++++ b/exercises/009_if.zig
+@@ -24,7 +24,7 @@ pub fn main() void {
+     const foo = 1;
+ 
+     // Please fix this condition:
+-    if (foo) {
++    if (foo == 1) {
+         // We want our program to print this message!
+         std.debug.print("Foo is 1!\n", .{});
+     } else {

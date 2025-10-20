@@ -1,0 +1,15 @@
+diff --git a/exercises/019_functions2.zig b/exercises/019_functions2.zig
+index 5a76c7b..3f56d99 100644
+--- a/exercises/019_functions2.zig
++++ b/exercises/019_functions2.zig
+@@ -22,8 +22,8 @@ pub fn main() void {
+ // You'll need to figure out the parameter name and type that we're
+ // expecting. The output type has already been specified for you.
+ //
+-fn twoToThe(???) u32 {
+-    return std.math.pow(u32, 2, my_number);
++fn twoToThe(my_number: u8) u32 {
++    return std.math.pow(u32, 2, @intCast(my_number));
+     // std.math.pow(type, a, b) takes a numeric type and two
+     // numbers of that type (or that can coerce to that type) and
+     // returns "a to the power of b" as that same numeric type.

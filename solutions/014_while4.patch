@@ -1,0 +1,13 @@
+diff --git a/exercises/014_while4.zig b/exercises/014_while4.zig
+index 95aecb0..7b6c7fa 100644
+--- a/exercises/014_while4.zig
++++ b/exercises/014_while4.zig
+@@ -18,7 +18,7 @@ pub fn main() void {
+     // Oh dear! This while loop will go forever?!
+     // Please fix this so the print statement below gives the desired output.
+     while (true) : (n += 1) {
+-        if (???) ???;
++        if (n > 3) break;
+     }
+ 
+     // Result: we want n=4

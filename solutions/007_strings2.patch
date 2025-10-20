@@ -1,0 +1,17 @@
+diff --git a/exercises/007_strings2.zig b/exercises/007_strings2.zig
+index 6350be1..74cb752 100644
+--- a/exercises/007_strings2.zig
++++ b/exercises/007_strings2.zig
+@@ -15,9 +15,9 @@ const std = @import("std");
+ 
+ pub fn main() void {
+     const lyrics =
+-        Ziggy played guitar
+-        Jamming good with Andrew Kelley
+-        And the Spiders from Mars
++        \\Ziggy played guitar
++        \\Jamming good with Andrew Kelley
++        \\And the Spiders from Mars
+     ;
+ 
+     std.debug.print("{s}\n", .{lyrics});
